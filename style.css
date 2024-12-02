@@ -1,0 +1,1437 @@
+
+/* Logo */
+
+img{
+    max-width: 100px;
+    position: absolute;
+    margin-left: 100px;
+    width: 200px;
+    height: 50px;
+}
+
+/* Search Box */
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    margin-right: 130px;
+}
+/* button */
+button{
+    width: 50px;
+    height: 60px;
+    border: transparent;
+}
+.search input[type="search"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 400px;
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    text-align: center;
+    
+}
+
+
+/* Phone Number */
+.heading {
+    text-align: center;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -90px;
+    font-size: 16px;
+}
+h1{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 100px;
+}
+.heading p{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: +40PX;
+    font-size: 20px
+}
+
+
+/* Email Address */
+.email {
+    text-align: center;
+    margin: 20px 0;
+    margin-left: 900px;
+    margin-top: -60px;
+    position: absolute;
+}
+
+.email h2 {
+    margin: 0;
+    position: absolute;
+    margin-top: -20px;
+    font-size: 20px;
+    margin-left: 270px;
+}
+.email P{
+    position: absolute;
+    margin-left: 170px;
+    font-size: 20px;
+}
+
+/* Navigation Bar */
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f8f8f8;
+    padding: 20px 0 ;
+    width: 100%;
+}
+
+.main select, .main a {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+}
+.main a:hover{
+    text-decoration: underline;
+}
+.main select{
+    margin-left: 30px;
+}
+.main select:hover{
+    text-decoration: underline;
+}
+
+.main i {
+    margin: 0 10px;
+    cursor: pointer;
+}
+/* banner background */
+.banner{
+    border: 2px solid transparent;
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    background-color: rgba(250, 235, 215, 0.863);
+    background-image: url(banner-img.jpg);
+    background-repeat: no-repeat;
+}
+.banner h1{
+    position: absolute;
+    font-size: calc(1.625rem + 4.5vw);
+    font-family: cursive;
+    margin-left: 600px;
+    margin-top: 250px;
+}
+.banner p{
+    position: absolute;
+    font-size: calc(1.625rem + 4.5vw);
+    font-family: cursive;
+    margin-left: 600px;
+    margin-top: 500px;
+    color: rgba(161, 140, 18, 0.886);
+}
+.banner h2{
+    position: absolute;
+    font-size: 30px;
+    font-family: cursive;
+    margin-left: 600px;
+    margin-top: 170px;
+    color: goldenrod;
+}
+/* first button */
+.btn1{
+    position: absolute;
+    width: 13%;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: transparent;
+    margin-left: 600px;
+    margin-top: 50%;
+    border: 2px solid black;
+}
+/* button hover property */
+.btn1:hover{
+    background-color: #ccc;
+    transition: ease-in 1s;
+}
+/* imag icons */
+.icon1{
+    position: absolute;
+    height: 90px;
+    width: 220px;
+    margin-top: 70%;
+    margin-left: 190px;
+}
+.icon2{
+    position: absolute;
+    height: 90px;
+    width: 220px;
+    margin-top: 70%;
+    margin-left: 400px;
+}
+.icon3{
+    position: absolute;
+    height: 90px;
+    width: 220px;
+    margin-top: 70%;
+    margin-left: 600px;
+}
+.icon4{
+    position: absolute;
+    height: 90px;
+    width: 220px;
+    margin-top: 70%;
+    margin-left: 800px;
+}
+.icon5{
+    position: absolute;
+    height: 90px;
+    width: 220px;
+    margin-top: 70%;
+    margin-left: 1030px;
+}
+/* icons heading */
+.imag-icons h1{
+    position: absolute;
+    margin-top: 80%;
+    font-size: 25px;
+    font-family: cursive;
+    margin-left: 200px;
+}
+.imag-icons h2{
+    position: absolute;
+    margin-top: 80%;
+    font-size: 25px;
+    font-family: cursive;
+    margin-left: 380px;
+}
+.imag-icons h3{
+    position: absolute;
+    margin-top: 80%;
+    font-size: 25px;
+    font-family: cursive;
+    margin-left: 590px;
+}
+.imag-icons h4{
+    position: absolute;
+    margin-top: 80%;
+    font-size: 25px;
+    font-family: cursive;
+    margin-left: 780px;
+}
+.imag-icons h5{
+    position: absolute;
+    margin-top: 80%;
+    font-size: 25px;
+    font-family: cursive;
+    margin-left: 1020px;
+}
+    /* imag card heading title icon    */
+
+    /* title */
+.title h1{
+    position: absolute;
+    margin-top: 95%;
+    font-size: 70px;
+    font-family: cursive;
+    margin-left: 50px;
+}
+/* second button */
+.btn2{
+    position: absolute;
+    width: 15%;
+    font-size: 20px;
+    font-family: cursive;
+    border: 2px solid black;
+    background-color: transparent;
+    margin-top: 96%;
+    margin-left: 990px;
+}
+/* hover property use */
+.btn2:hover{
+    background-color: #ccc;
+    transition: ease-in 1s;
+}
+.imag-card-1{
+    position: absolute;
+    border: 2px solid transparent;
+    width: 20%;
+    height: 270px;
+    border-radius: 20px;
+    background-image: url(item1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 110%;
+    margin-left: 50px;
+}
+.btn3{
+    position: absolute;
+    border: 2px solid gray;
+    width: 90px;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+/* hover property */
+.btn3:hover{
+    background-color: #ccc;
+    transition: ease-in 1s;
+}
+/*.imag-card-2  */
+.imag-card-2{
+    position: absolute;
+    border: 2px solid transparent;
+    width: 20%;
+    height: 270px;
+    border-radius: 20px;
+    background-image: url(item2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 110%;
+    margin-left: 340px;
+}
+/*.imag-card-3  */
+.imag-card-3{
+    position: absolute;
+    border: 2px solid transparent;
+    width: 20%;
+    height: 270px;
+    border-radius: 20px;
+    background-image: url(item3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 110%;
+    margin-left: 630px;
+}
+.btn4{
+    position: absolute;
+    border: 2px solid gray;
+    width: 90px;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+/* hover property */
+.btn4:hover{
+    background-color: #ccc;
+    transition: ease-in 1s;
+}
+/*.imag-card-4  */
+.imag-card-4{
+    position: absolute;
+    border: 2px solid transparent;
+    width: 20%;
+    height: 270px;
+    border-radius: 20px;
+    background-image: url(item3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 110%;
+    margin-left: 970px;
+}
+/* imag-card-1 stars icons */
+.imag-card-1 i {
+    color: gold;
+    margin-top: 125%;
+   
+}
+.imag-card-1 h1{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 114px;
+    font-size: 25px;
+}
+.imag-card-1 p{
+    position: absolute;
+    margin-top: -70px;
+    font-size: 35px;
+    font-family: cursive;
+    margin-left: 10px;
+}
+.imag-card-1 h2{
+    position: absolute;
+    font-size: 35px;
+    font-family: cursive;
+    margin-top: -4px;
+    margin-left: 10px;
+    color: rgb(166, 145, 30);
+}
+/* button 4 */
+.bt1 {
+    position: absolute;
+    border: 2px solid black;
+    width: 50%;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    top: +150%;
+    right: 118px; 
+    }
+.imag-card-1 img{
+    position: absolute;
+    height: 40px;
+    width: 20%;
+    margin-top: 180%;
+    right: 80%; 
+}
+
+/* imag-card-1 stars icons */
+.stars {
+    position: absolute;
+    margin-top: 120%;
+    padding: 10px;
+    color: gold;
+}
+.imag-card-2 h1{
+    position: absolute;
+    margin-top: +122%;
+    margin-left: 130px;
+    font-size: 25px;
+}
+.imag-card-2 p{
+    position: absolute;
+    margin-top: +270px;
+    font-size: 35px;
+    font-family: cursive;
+    margin-left: 10px;
+}
+.imag-card-2 h2{
+    position: absolute;
+    font-size: 35px;
+    font-family: cursive;
+    margin-top: +345px;
+    margin-left: 10px;
+    color: rgb(166, 145, 30);
+}
+.bt2 {
+    position: absolute;
+    border: 2px solid black;
+    width: 50%;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    top: +150%;
+    right: 118px; 
+    }
+.imag-card-2 img{
+    position: absolute;
+    height: 40px;
+    width: 20%;
+    margin-top: 180%;
+    right: 75%;
+}
+/* third */
+.stars1 {
+    position: absolute;
+    margin-top: 120%;
+    padding: 10px;
+    color: gold;
+}
+.imag-card-3 h1{
+    position: absolute;
+    margin-top: +122%;
+    margin-left: 130px;
+    font-size: 25px;
+}
+.imag-card-3 p{
+    position: absolute;
+    margin-top: +270px;
+    font-size: 35px;
+    font-family: cursive;
+    margin-left: 10px;
+}
+.imag-card-3 h2{
+    position: absolute;
+    font-size: 35px;
+    font-family: cursive;
+    margin-top: +345px;
+    margin-left: 10px;
+    color: rgb(166, 145, 30);
+}
+.bt3 {
+    position: absolute;
+    border: 2px solid black;
+    width: 50%;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    top: +150%;
+    right: 118px; 
+    }
+.imag-card-3 img{
+    position: absolute;
+    height: 40px;
+    width: 20%;
+    margin-top: 180%;
+    right: 75%;
+}
+/* fourth */
+.stars4 {
+    position: absolute;
+    margin-top: 120%;
+    padding: 10px;
+    color: gold;
+}
+.imag-card-4 h1{
+    position: absolute;
+    margin-top: +122%;
+    margin-left: 130px;
+    font-size: 25px;
+}
+.imag-card-4 p{
+    position: absolute;
+    margin-top: +270px;
+    font-size: 35px;
+    font-family: cursive;
+    margin-left: 10px;
+}
+.imag-card-4 h2{
+    position: absolute;
+    font-size: 35px;
+    font-family: cursive;
+    margin-top: +345px;
+    margin-left: 10px;
+    color: rgb(166, 145, 30);
+}
+.bt4 {
+    position: absolute;
+    border: 2px solid black;
+    width: 50%;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    top: +150%;
+    right: 118px; 
+    }
+.imag-card-4 img{
+    position: absolute;
+    height: 40px;
+    width: 20%;
+    margin-top: 180%;
+    right: 75%;
+}
+/* 2nd imag card heading title icon */
+.title1 h1{
+    position: absolute;
+    margin-top: 162%;
+    font-size: 70px;
+    font-family: cursive;
+    margin-left: 40px;
+}
+/* second button */
+.bn2{
+    position: absolute;
+    width: 15%;
+    font-size: 20px;
+    font-family: cursive;
+    border: 2px solid black;
+    background-color: transparent;
+    margin-top: 163%;
+    margin-left: 990px;
+}
+/* hover property use */
+.bn2:hover{
+    background-color: #ccc;
+    transition: ease-in 1s;
+}
+/* imag-card-1 stars icons */
+.card1{
+    position: absolute;
+    border: 2px solid transparent;
+    width: 20%;
+    height: 270px;
+    border-radius: 20px;
+    background-image: url(food1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 174%;
+    margin-left: 60px;
+}
+/*.imag-card-2  */
+.card2{
+    position: absolute;
+    border: 2px solid transparent ;
+    width: 20%;
+    height: 270px;
+    border-radius: 20px;
+    background-image: url(food2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 174%;
+    margin-left: 360px;
+}
+/*.imag-card-3  */
+.card3{
+    position: absolute;
+    border: 2px solid transparent;
+    width: 20%;
+    height: 270px;
+    border-radius: 20px;
+    background-image: url(food3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 174%;
+    margin-left: 650px;
+}
+
+/*.imag-card-4  */
+.card4{
+    position: absolute;
+    border: 2px solid transparent;
+    width: 20%;
+    height: 270px;
+    border-radius: 20px;
+    background-image: url(food4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 174%;
+    margin-left: 950px;
+}
+.card1 i {
+    color: gold;
+    margin-top: 130%;
+   
+}
+.card1 h1{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 125px;
+    font-size: 25px;
+}
+.card1 p{
+    position: absolute;
+    margin-top: -80px;
+    font-size: 35px;
+    font-family: cursive;
+    margin-left: 3px;
+}
+.card1 h2{
+    position: absolute;
+    font-size: 35px;
+    font-family: cursive;
+    margin-top: 10px;
+    margin-left: 4px;
+    color: rgb(166, 145, 30);
+}
+/* button 4 */
+.card1 img{
+    position: absolute;
+    height: 40px;
+    width: 20%;
+    margin-top: 180%;
+    right: 220px;
+    
+}
+.be1 {
+    position: absolute;
+    border: 2px solid black;
+    width: 50%;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    top: +160%;
+    right: 130px; 
+    }
+    /* second */
+    .card2 i {
+        color: gold;
+        margin-top: 130%;
+       
+    }
+    .card2 h1{
+        position: absolute;
+        margin-top: -25px;
+        margin-left: 125px;
+        font-size: 25px;
+    }
+    .card2 p{
+        position: absolute;
+        margin-top: -80px;
+        font-size: 35px;
+        font-family: cursive;
+        margin-left: 3px;
+    }
+    .card2 h2{
+        position: absolute;
+        font-size: 35px;
+        font-family: cursive;
+        margin-top: -4px;
+        margin-left: 4px;
+        color: rgb(166, 145, 30);
+    }
+    /* button 4 */
+    .card2 img{
+        position: absolute;
+        height: 40px;
+        width: 20%;
+        margin-top: 180%;
+        right: 220px;
+        
+    }
+    .be2 {
+        position: absolute;
+        border: 2px solid black;
+        width: 50%;
+        height: 40px;
+        text-decoration: none;
+        text-align: center;
+        font-size: 20px;
+        font-family: cursive;
+        top: +160%;
+        right: 130px; 
+        }
+/* third */
+.card3 i {
+    color: gold;
+    margin-top: 130%;
+   
+}
+.card3 h1{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 125px;
+    font-size: 25px;
+}
+.card3 p{
+    position: absolute;
+    margin-top: -80px;
+    font-size: 35px;
+    font-family: cursive;
+    margin-left: 3px;
+}
+.card3 h2{
+    position: absolute;
+    font-size: 35px;
+    font-family: cursive;
+    margin-top: -4px;
+    margin-left: 4px;
+    color: rgb(166, 145, 30);
+}
+/* button 4 */
+.card3 img{
+    position: absolute;
+    height: 40px;
+    width: 20%;
+    margin-top: 180%;
+    right: 220px;
+    
+}
+.be3 {
+    position: absolute;
+    border: 2px solid black;
+    width: 50%;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    top: +160%;
+    right: 130px; 
+    }
+    /* fourth */
+    .card4 i {
+        color: gold;
+        margin-top: 130%;
+       
+    }
+    .card4 h1{
+        position: absolute;
+        margin-top: -25px;
+        margin-left: 125px;
+        font-size: 25px;
+    }
+    .card4 p{
+        position: absolute;
+        margin-top: -80px;
+        font-size: 35px;
+        font-family: cursive;
+        margin-left: 3px;
+    }
+    .card4 h2{
+        position: absolute;
+        font-size: 35px;
+        font-family: cursive;
+        margin-top: -4px;
+        margin-left: 4px;
+        color: rgb(166, 145, 30);
+    }
+    /* button 4 */
+    .card4 img{
+        position: absolute;
+        height: 40px;
+        width: 20%;
+        margin-top: 180%;
+        right: 220px;
+        
+    }
+    .be4 {
+        position: absolute;
+        border: 2px solid black;
+        width: 50%;
+        height: 40px;
+        text-decoration: none;
+        text-align: center;
+        font-size: 20px;
+        font-family: cursive;
+        top: +160%;
+        right: 130px; 
+        }
+/* same image card */
+.card11{
+    position: absolute;
+    border: 2px solid transparent;
+    width: 20%;
+    height: 270px;
+    border-radius: 20px;
+    background-image: url(item13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 224%;
+    margin-left: 60px;
+}
+/*.imag-card-2  */
+.card12{
+    position: absolute;
+    border: 2px solid transparent ;
+    width: 20%;
+    height: 270px;
+    border-radius: 20px;
+    background-image: url(item14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 224%;
+    margin-left: 360px;
+}
+/*.imag-card-3  */
+.card13{
+    position: absolute;
+    border: 2px solid  transparent;
+    width: 20%;
+    height: 270px;
+    border-radius: 20px;
+    background-image: url(item15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 224%;
+    margin-left: 650px;
+}
+
+/*.imag-card-4  */
+.card14{
+    position: absolute;
+    border: 2px solid transparent;
+    width: 20%;
+    height: 270px;
+    border-radius: 20px;
+    background-image: url(item16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 224%;
+    margin-left: 950px;
+}
+.card11 i {
+    color: gold;
+    margin-top: 130%;
+   
+}
+.card11 h1{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 125px;
+    font-size: 25px;
+}
+.card11 p{
+    position: absolute;
+    margin-top: -80px;
+    font-size: 35px;
+    font-family: cursive;
+    margin-left: 3px;
+}
+.card11 h2{
+    position: absolute;
+    font-size: 35px;
+    font-family: cursive;
+    margin-top: -4px;
+    margin-left: 4px;
+    color: rgb(166, 145, 30);
+}
+/* button 4 */
+.card11 img{
+    position: absolute;
+    height: 40px;
+    width: 20%;
+    margin-top: 180%;
+    right: 220px;
+    
+}
+.be11 {
+    position: absolute;
+    border: 2px solid black;
+    width: 50%;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    top: +155%;
+    right: 118px; 
+    }
+    /* second */
+    .card12 i {
+        color: gold;
+        margin-top: 130%;
+       
+    }
+    .card12 h1{
+        position: absolute;
+        margin-top: -25px;
+        margin-left: 125px;
+        font-size: 25px;
+    }
+    .card12 p{
+        position: absolute;
+        margin-top: -80px;
+        font-size: 35px;
+        font-family: cursive;
+        margin-left: 3px;
+    }
+    .card12 h2{
+        position: absolute;
+        font-size: 35px;
+        font-family: cursive;
+        margin-top: -4px;
+        margin-left: 4px;
+        color: rgb(166, 145, 30);
+    }
+    /* button 4 */
+    .card12 img{
+        position: absolute;
+        height: 40px;
+        width: 20%;
+        margin-top: 180%;
+        right: 220px;
+        
+    }
+    .be12 {
+        position: absolute;
+        border: 2px solid black;
+        width: 50%;
+        height: 40px;
+        text-decoration: none;
+        text-align: center;
+        font-size: 20px;
+        font-family: cursive;
+        top: +155%;
+        right: 118px; 
+        }
+/* third */
+.card13 i {
+    color: gold;
+    margin-top: 130%;
+   
+}
+.card13 h1{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 125px;
+    font-size: 25px;
+}
+.card13 p{
+    position: absolute;
+    margin-top: -80px;
+    font-size: 35px;
+    font-family: cursive;
+    margin-left: 3px;
+}
+.card13 h2{
+    position: absolute;
+    font-size: 35px;
+    font-family: cursive;
+    margin-top: -4px;
+    margin-left: 4px;
+    color: rgb(166, 145, 30);
+}
+/* button 4 */
+.card13 img{
+    position: absolute;
+    height: 40px;
+    width: 20%;
+    margin-top: 180%;
+    right: 220px;
+    
+}
+.be13 {
+    position: absolute;
+    border: 2px solid black;
+    width: 50%;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    top: +155%;
+    right: 118px; 
+    }
+    /* fourth */
+    .card14 i {
+        color: gold;
+        margin-top: 130%;
+       
+    }
+    .card14 h1{
+        position: absolute;
+        margin-top: -25px;
+        margin-left: 125px;
+        font-size: 25px;
+    }
+    .card14 p{
+        position: absolute;
+        margin-top: -80px;
+        font-size: 35px;
+        font-family: cursive;
+        margin-left: 3px;
+    }
+    .card14 h2{
+        position: absolute;
+        font-size: 35px;
+        font-family: cursive;
+        margin-top: -4px;
+        margin-left: 4px;
+        color: rgb(166, 145, 30);
+    }
+    /* button 4 */
+    .card14 img{
+        position: absolute;
+        height: 40px;
+        width: 20%;
+        margin-top: 180%;
+        right: 200px;
+        
+    }
+    .be14 {
+        position: absolute;
+        border: 2px solid black;
+        width: 50%;
+        height: 40px;
+        text-decoration: none;
+        text-align: center;
+        font-size: 20px;
+        font-family: cursive;
+        top: +155%;
+        right: 119px; 
+        }
+/* second banner */
+.banner2{
+    border: 2px solid transparent;
+    position: absolute;
+    height: 760px;
+    width: 100%;
+    background-color: rgba(250, 235, 215, 0.863);
+    background-image: url(banner-img2.png);
+    background-repeat: no-repeat;
+    margin-top: 3600px;
+     background-position-x: 620px;
+}
+ .banner2 h1{
+    position: absolute;
+    font-size: calc(1.625rem + 3.5vw);
+    font-family: cursive;
+    margin-left: 140px;
+    margin-top: 250px;
+}
+
+.banner2 h2{
+    position: absolute;
+    font-size: 30px;
+    font-family: cursive;
+    margin-left: 160px;
+    margin-top: 160px;
+    color: goldenrod;
+} 
+/* first button */
+ .btn01{
+    position: absolute;
+    width: 13%;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: transparent;
+    margin-left: 150px;
+    margin-top: 36%;
+    border: 2px solid black;
+}
+/* button hover property */
+ .btn01:hover{
+    background-color: #ccc;
+    transition: ease-in 1s;
+}
+ /*title again  */
+.imag{
+    position: absolute;
+    margin-top: 4390px;
+    height: 200px;
+    width: 60%;
+    margin-left: 280px;
+}
+.title3 p {
+    position: absolute;
+    font-size: 40px;
+    text-size-adjust: 30px;
+    margin-top: 4390px;
+    margin-left: 400px;
+}
+/* banner  form*/
+.banner3{
+    border: 2px solid transparent;
+    position: absolute;
+    height: 550px;
+    width: 100%;
+    background-color: rgba(250, 235, 215, 0.863);
+    margin-top: 4640px;
+}
+.banner3 h1{
+    position: absolute;
+    font-size: 50px;
+    font-family: cursive;
+    margin-left: 400px;
+}
+.banner3 p{
+    position: absolute;
+    font-size: 50px;
+    font-family: cursive;
+    margin-left: 430px;
+    margin-top: 130px;
+    color: goldenrod;
+}
+form{
+    position: absolute;
+    margin-top: 15%;
+    padding: 30px;
+}
+form input{
+   padding: 20px;
+   margin-left: 370px;
+   width: 30%;
+   margin-top: 15px;
+}
+.Register{
+    position: absolute;
+    width: 32%;
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 370px;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.Register .placeholder{
+    text-align: center;
+    justify-content: center;
+}
+.Register:hover{
+    background-color: #333;
+    transition: ease-in 1s;
+}
+/* blog-position */
+.blog-position h1{
+    position: absolute;
+    font-size: 65px;
+    font-family: cursive;
+    margin-top: 5300px;
+}
+.b2{
+    position: absolute;
+    width: 15%;
+    font-size: 20px;
+    font-family: cursive;
+    border: 2px solid black;
+    background-color: transparent;
+    margin-top: 5320px;
+    margin-left: 990px;
+}
+/* hover property use */
+.b2:hover{
+    background-color: #ccc;
+    transition: ease-in 1s;
+}
+/* imag card */
+.blog1{
+    position: absolute;
+    border: 2px solid transparent;
+    height: 270px;
+    width: 30%;
+    border-radius: 20px;
+    margin-top: 5500px;
+    margin-left: 40px;
+    background-image: url(blog1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog2{
+    position: absolute;
+    border: 2px solid transparent;
+    height: 340px;
+    width: 28%;
+    border-radius: 20px;
+    margin-top: 5530px;
+    margin-left: 460px;
+    background-image: url(blog2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog3{
+    position: absolute;
+    border: 2px solid transparent;
+    height: 270px;
+    width: 30%;
+    border-radius: 20px;
+    margin-top: 5500px;
+    margin-left: 850px;
+    background-image: url(blog3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* heading and title */
+.blog1 h2{
+    position: absolute;
+    font-family: cursive;
+    font-size: 25px;
+    margin-top: 300px;
+}
+.blog1 p{
+    position: absolute;
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 390px;
+}
+.blog2 h2{
+    position: absolute;
+    font-family: cursive;
+    font-size: 25px;
+    margin-top: 360px;
+}
+.blog2 p{
+    position: absolute;
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 440px;
+}
+.blog3 h2{
+    position: absolute;
+    font-family: cursive;
+    font-size: 25px;
+    margin-top: 300px;
+}
+.blog3 p{
+    position: absolute;
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 340px;
+}
+/* icons second */
+.head1 img{
+    border-radius: 100%;
+    position: absolute;
+    margin-top: 6350px;
+    height: 100px;
+    width: 20%;
+}
+.head1 h1{
+    position: absolute;
+    margin-top: 6460px ;
+    font-size: 25px;
+    margin-left: 80px;
+    font-family: cursive;
+}
+.head1 p{
+    position: absolute;
+    margin-top: 6500px ;
+    font-size: 20px;
+    margin-left: 80px;
+    color: #ccc;
+}
+.head2 img{
+    border-radius: 100%;
+    position: absolute;
+    margin-top: 6350px;
+    height: 100px;
+    width: 20%;
+    margin-left: 440px;
+}
+.head2 h1{
+    position: absolute;
+    margin-top: 6460px ;
+    font-size: 20px;
+    margin-left: 400px;
+    font-family: cursive;
+}
+.head2 p{
+    position: absolute;
+    margin-top: 6500px ;
+    font-size: 20px;
+    margin-left: 400px;
+    color: #ccc;
+}
+.head3 img{
+    border-radius: 100%;
+    position: absolute;
+    margin-top: 6350px;
+    height: 100px;
+    width: 20%;
+    margin-left: 740px;
+}
+.head3 h1{
+    position: absolute;
+    margin-top: 6460px ;
+    font-size: 20px;
+    margin-left: 740px;
+    font-family: cursive;
+}
+.head3 p{
+    position: absolute;
+    margin-top: 6500px ;
+    font-size: 20px;
+    margin-left: 740px;
+    color: #ccc;
+}
+.head4 img{
+    border-radius: 100%;
+    position: absolute;
+    margin-top: 6350px;
+    height: 100px;
+    width: 20%;
+    margin-left: 1050px;
+}
+.head4 h1{
+    position: absolute;
+    margin-top: 6460px ;
+    font-size: 20px;
+    margin-left: 1070px;
+    font-family: cursive;
+}
+.head4 p{
+    position: absolute;
+    margin-top: 6500px ;
+    font-size: 20px;
+    margin-left: 1070px;
+    color: #ccc;
+}
+/* footer postion */
+.footer{
+    position: absolute;
+    border: 2px solid transparent;
+    width: 100%;
+    height: 300px;
+    margin-top: 6700px;
+    background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 100px;
+    background-position-y: 30px;
+    
+}
+.footer h1{
+    position: absolute;
+    margin-top: 100px;
+}
+.fa-facebook{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+.fa-facebook:hover{color: blue;}
+.fa-instagram{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 130px;
+}
+.fa-instagram:hover{color:red;}
+.fa-twitter{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 160px
+}
+.fa-twitter:hover{color: blue;}
+.fa-youtube{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 190px
+}
+.fa-youtube:hover{color: red;}
+.fa-pinterest{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 230px
+}
+.fa-pinterest:hover{color: red;}
+.footer h2{
+    position: absolute;
+    margin-left: 450px;
+}
+.footer a{
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 50px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.footer a:hover{
+    color: goldenrod;
+    transition: ease-in 1s;
+    line-height: 20px;
+}
+.footer h3{
+    position: absolute;
+    font-size: 25px;
+    margin-top: -70px;
+    margin-left: 630px;
+}
+.footer h4{
+    position: absolute;
+    font-size: 25px;
+    margin-top: -70px;
+    margin-left: 890px;
+    margin-top: -150px;
+}
+.footer p{
+    position: absolute;
+    font-size: 25px;
+    margin-top: -70px;
+    margin-left: 890px;
+    margin-top: -120px;
+}
+.search1{
+    position: absolute;
+    margin-left: 890px;
+    margin-top: -20px;
+}
+.search1 input{
+    padding: 20px;
+    border-radius: 30px;
+    width: 130%;
+}
+.fa-paper-plane{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -40px;
+    color: orange;
+}
